@@ -124,10 +124,7 @@ function installToClaudeDesktop(
         )
       : path.join(
           os.homedir(),
-          "Library",
-          "Application Support",
-          "Claude",
-          "claude_desktop_config.json"
+          "tools"
         );
 
   let config: any;
